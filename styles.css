@@ -319,14 +319,14 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .customers {
-    width: 1140px;
     display: flex;
-    margin: auto;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 1140px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
   }
 }
 .customers__row {
@@ -339,14 +339,14 @@ html {
   }
 }
 .customers__item {
-  height: 94px;
-  width: 107px;
-  border-bottom: 1px solid #E3E3E3;
-  border-right: 1px solid #E3E3E3;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
+  height: 94px;
+  width: 107px;
+  border-bottom: 1px solid #E3E3E3;
+  border-right: 1px solid #E3E3E3;
 }
 @media screen and (min-width: 1400px) {
   .customers__item {
@@ -722,71 +722,70 @@ html {
   }
 }
 .features__content {
+  display: flex;
   width: 1140px;
   margin: auto;
-  display: flex;
 }
 .features__column {
   width: 462px;
 }
 .features__subtitle {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: #009B4D;
   margin: 0;
+  font-weight: 700;
+  line-height: 34px;
+  font-size: 22px;
+  color: #009B4D;
 }
 .features__title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-  margin-top: 24px;
   margin-bottom: 0;
+  margin-top: 24px;
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 56px;
 }
 .features__description {
-  margin-top: 30px;
   margin-bottom: 0;
+  margin-top: 30px;
   font-size: 22px;
   line-height: 34px;
 }
 .features__advantage-header {
-  line-height: 42px;
   display: flex;
   margin-top: 42px;
+  line-height: 42px;
 }
 .features__advantage-title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  color: #3142C6;
   margin: 0;
   margin-left: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 22px;
+  color: #3142C6;
 }
 .features__advantage-description {
+  margin-bottom: 0;
+  margin-top: 8px;
+  padding-bottom: 20px;
   font-size: 18px;
   line-height: 26px;
-  margin-top: 8px;
-  margin-bottom: 0;
-  padding-bottom: 20px;
   border-bottom: 3px solid #3142C6;
 }
 .features__advantage-item {
-  border-bottom: 1px solid #2B292D26;
+  display: flex;
   margin-top: 21px;
   padding-bottom: 22px;
-  display: flex;
+  border-bottom: 1px solid #2B292D26;
 }
 .features__advantage-item-text {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
   margin-left: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 22px;
 }
 .features__left-decoration {
-  height: 166px;
   position: absolute;
   top: 258px;
+  height: 166px;
 }
 .features__banner {
   position: absolute;

@@ -6,14 +6,15 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
     display: flex;
-    margin: auto;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 1140px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
+    
   }
 
   &__row {
@@ -26,14 +27,14 @@
   }
 
   &__item {
-    height: 94px;
-    width: 107px;
-    border-bottom: 1px solid $color-light;
-    border-right: 1px solid $color-light;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    height: 94px;
+    width: 107px;
+    border-bottom: 1px solid $color-light;
+    border-right: 1px solid $color-light;
 
     @include for-large-up {
       flex: 1;
