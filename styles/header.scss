@@ -2,11 +2,11 @@
 @import 'variables.scss';
 
 .top-section {
-  background-color: $color-coral;
+  background-color: $header-background-color;
 
   @include for-large-up {
     padding-top: 39px;
-    background-color: $color-coral;
+    background-color: $header-background-color;
   }
 }
 
@@ -16,14 +16,14 @@
   padding-left: 15px;
   height: 64px;
   width: 100%;
-  background-color: $color-white;
+  background-color: $header-background-color-mobile;
 
   @include for-large-up {
     display: flex;
     margin: auto;
     width: 1140px;
     height: 62px;
-    background-color: $color-coral;
+    background-color: $header-background-color;
   }
 
   &__button {

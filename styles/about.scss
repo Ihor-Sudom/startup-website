@@ -4,7 +4,7 @@
 .about {
   padding: 46px 15px;
   width: 100%;
-  background-color: $color-light;
+  background-color: $about-background-color;
 
   @include for-large-up {
     display: flex;
