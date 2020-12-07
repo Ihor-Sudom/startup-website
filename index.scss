@@ -1,5 +1,5 @@
 
-@import 'breakpoints.scss';
+@import './styles/breakpoints.scss';
 
 * {
   box-sizing: border-box;
@@ -22,27 +22,27 @@ html {
   }
 }
 
-@import 'common.scss';
+@import './styles/common.scss';
 
-@import 'header.scss';
+@import './styles/header.scss';
 
-@import "headline.scss";
+@import './styles/headline.scss';
 
-@import 'about.scss';
+@import './styles/about.scss';
 
-@import 'customers.scss';
+@import './styles/customers.scss';
 
-@import 'inbox.scss';
+@import './styles/inbox.scss';
 
-@import 'communication.scss';
+@import './styles/communication.scss';
 
-@import 'audience.scss';
+@import './styles/audience.scss';
 
-@import 'features.scss';
+@import './styles/features.scss';
 
-@import 'tips.scss';
+@import './styles/tips.scss';
 
-@import 'order.scss';
+@import './styles/order.scss';
 
-@import 'footer.scss';
+@import './styles/footer.scss';
 
