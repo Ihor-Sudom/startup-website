@@ -543,7 +543,7 @@ html {
 .communication__button {
   margin-bottom: 40px;
 }
-.communication__illustration {
+.communication__scene {
   display: flex;
   align-items: center;
   flex-direction: column;
