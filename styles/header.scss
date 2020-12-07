@@ -5,24 +5,24 @@
   background-color: $color-coral;
 
   @include for-large-up {
-    background-color: $color-coral;
     padding-top: 39px;
+    background-color: $color-coral;
   }
 }
 
 .header {
   display: flex;
   align-items: center;
+  padding-left: 15px;
   height: 64px;
   width: 100%;
   background-color: $color-white;
-  padding-left: 15px;
 
   @include for-large-up {
     display: flex;
+    margin: auto;
     width: 1140px;
     height: 62px;
-    margin: auto;
     background-color: $color-coral;
   }
 
@@ -37,9 +37,9 @@
   &__menu-button {
     width: 58px;
     height: 100%;
+    margin-left: auto;
     border: none;
     border-left: 1px solid $border-color-grey;
-    margin-left: auto;
     background-color: transparent;
 
     @include for-large-up {
@@ -48,10 +48,10 @@
   }
 
   &__menu-icon {
+    display: inline-block;
     width: 18px;
     height: 13px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
-    display: inline-block;
   }
 }
 
@@ -99,17 +99,15 @@
 
   @include for-large-up {
     display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
+    margin: 7px 75px 0 auto;
   }
 
   &__item {
-    color: $text-color-dark;
+    margin-right: 50px;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
-    margin-right: 50px;
+    color: $text-color-dark;
 
     &_selected {
       font-weight: $bold-type;
@@ -122,9 +120,9 @@
 
   &__arrow {
     display: inline-block;
+    margin-left: 11px;
     width: 8px;
     height: 5px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-    margin-left: 11px;
   }
 }

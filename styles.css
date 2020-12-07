@@ -48,25 +48,25 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .top-section {
-    background-color: #F3C6BD;
     padding-top: 39px;
+    background-color: #F3C6BD;
   }
 }
 
 .header {
   display: flex;
   align-items: center;
+  padding-left: 15px;
   height: 64px;
   width: 100%;
   background-color: #fff;
-  padding-left: 15px;
 }
 @media screen and (min-width: 1400px) {
   .header {
     display: flex;
+    margin: auto;
     width: 1140px;
     height: 62px;
-    margin: auto;
     background-color: #F3C6BD;
   }
 }
@@ -81,9 +81,9 @@ html {
 .header__menu-button {
   width: 58px;
   height: 100%;
+  margin-left: auto;
   border: none;
   border-left: 1px solid #00000026;
-  margin-left: auto;
   background-color: transparent;
 }
 @media screen and (min-width: 1400px) {
@@ -92,10 +92,10 @@ html {
   }
 }
 .header__menu-icon {
+  display: inline-block;
   width: 18px;
   height: 13px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
-  display: inline-block;
 }
 
 .logo {
@@ -141,17 +141,15 @@ html {
 @media screen and (min-width: 1400px) {
   .navigation {
     display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
+    margin: 7px 75px 0 auto;
   }
 }
 .navigation__item {
-  color: #2B292D;
+  margin-right: 50px;
   text-decoration: none;
   line-height: 25px;
   font-size: 18px;
-  margin-right: 50px;
+  color: #2B292D;
 }
 .navigation__item_selected {
   font-weight: 700;
@@ -161,10 +159,10 @@ html {
 }
 .navigation__arrow {
   display: inline-block;
+  margin-left: 11px;
   width: 8px;
   height: 5px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-  margin-left: 11px;
 }
 
 .headline {
@@ -958,16 +956,16 @@ html {
   height: 60px;
 }
 .logo-vertical__name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 20px;
 }
 .logo-vertical__description {
-  font-size: 18px;
-  line-height: 25px;
   text-align: center;
+  line-height: 25px;
+  font-size: 18px;
   color: rgba(43, 41, 45, 0.6);
 }
 
@@ -977,11 +975,11 @@ html {
   margin-top: auto;
 }
 .footer__line {
-  border-top: 1px solid #2B292D;
-  width: 100%;
-  opacity: 0.1;
   margin: 0;
   margin-top: 40px;
+  width: 100%;
+  border-top: 1px solid #2B292D;
+  opacity: 0.1;
 }
 @media screen and (min-width: 1400px) {
   .footer__line {
@@ -990,10 +988,10 @@ html {
 }
 .footer__description {
   display: none;
-  width: 360px;
-  line-height: 18px;
-  font-size: 18px;
   margin-top: 26px;
+  width: 360px;
+  font-size: 18px;
+  line-height: 18px;
   color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
@@ -1015,10 +1013,10 @@ html {
 @media screen and (min-width: 1400px) {
   .footer-navigation {
     display: flex;
+    flex-direction: row;
+    margin: 0 auto;
     width: 1140px;
     height: 338px;
-    margin: 0 auto;
-    flex-direction: row;
   }
 }
 
@@ -1027,9 +1025,9 @@ html {
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
   display: flex;
   justify-content: center;
+  margin: 25px 15px 0 15px;
 }
 @media screen and (min-width: 1400px) {
   .downloads {
@@ -1069,20 +1067,20 @@ html {
   width: 265px;
 }
 .nav-links__title {
-  font-weight: bolder;
-  font-size: 22px;
-  line-height: 28px;
-  color: #2B292D;
   margin: 0;
+  font-weight: bolder;
+  line-height: 28px;
+  font-size: 22px;
+  color: #2B292D;
 }
 .nav-links__list {
+  padding: 0;
+  margin: 0;
+  margin-top: 18px;
   list-style-type: none;
   font-size: 18px;
   line-height: 30px;
   color: rgba(43, 41, 45, 0.6);
-  padding: 0;
-  margin: 0;
-  margin-top: 18px;
 }
 
 .footer-links {
@@ -1092,30 +1090,30 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .footer-links {
-    width: 1140px;
     flex-direction: row;
-    margin: 0 auto;
     align-items: center;
+    margin: 0 auto;
+    width: 1140px;
     height: 50px;
   }
 }
 
 .terms {
-  line-height: 22px;
-  font-size: 14px;
   margin-top: 30px;
+  font-size: 14px;
+  line-height: 22px;
 }
 @media screen and (min-width: 1400px) {
   .terms {
-    line-height: 50px;
     margin-top: 0;
+    line-height: 50px;
   }
 }
 .terms__items {
+  margin-right: 22px;
   text-decoration: none;
   color: rgba(43, 41, 45, 0.6);
   opacity: 0.6;
-  margin-right: 22px;
 }
 
 .social-links {
@@ -1124,8 +1122,8 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .social-links {
-    margin-left: auto;
     margin-bottom: 0;
+    margin-left: auto;
   }
 }
 .social-links__item {
