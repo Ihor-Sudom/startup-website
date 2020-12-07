@@ -21,13 +21,13 @@ html {
 }
 
 .action__button {
-  background-color: #3040C4;
-  color: #fff;
   width: 160px;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
-  border: none;
+  background-color: #3040C4;
+  color: #fff;
+  border: 0;
   border-radius: 2px;
 }
 
@@ -293,16 +293,16 @@ html {
   }
 }
 .article__title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 32px;
   margin: 0;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 22px;
 }
 .article__text {
-  font-size: 22px;
-  line-height: 32px;
   margin-bottom: 0;
   margin-top: 6px;
+  line-height: 32px;
+  font-size: 22px;
 }
 .article:last-child {
   margin-top: 20px;
@@ -521,24 +521,24 @@ html {
 }
 .communication__subtitle {
   font-weight: 700;
-  font-size: 22px;
   line-height: 34px;
+  font-size: 22px;
   color: #0189D1;
 }
 .communication__title {
+  margin: 17px 0 18px;
   font-weight: 700;
-  font-size: 40px;
   line-height: 40px;
+  font-size: 40px;
   letter-spacing: -0.357143px;
   color: #2B292D;
-  margin: 17px 0 18px;
 }
 .communication__description {
-  font-size: 24px;
-  line-height: 34px;
-  color: #2B292D;
   margin: 0;
   margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  color: #2B292D;
 }
 .communication__button {
   margin-bottom: 40px;
@@ -553,20 +553,20 @@ html {
 }
 .communication__image-text {
   margin-top: 17px;
-  font-size: 14px;
   line-height: 22px;
+  font-size: 14px;
   color: rgba(43, 41, 45, 0.6);
 }
 .communication__line {
   width: 150px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .communication__main-text {
-  font-size: 18px;
-  line-height: 26px;
-  color: #2B292D;
   margin-top: 33px;
+  line-height: 26px;
+  font-size: 18px;
+  color: #2B292D;
 }
 .communication__main-conten_click {
   font-weight: 700;
@@ -591,8 +591,8 @@ html {
   margin-bottom: 17px;
   text-align: center;
   font-weight: 700;
-  font-size: 22px;
   line-height: 34px;
+  font-size: 22px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
@@ -606,25 +606,24 @@ html {
   margin-bottom: 18px;
   text-align: center;
   font-weight: 700;
-  font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.357143px;
+  font-size: 40px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
   .audience__title {
     width: 555px;
-    font-size: 56px;
-    line-height: 56px;
     margin-bottom: 30px;
+    line-height: 56px;
+    font-size: 56px;
   }
 }
 .audience__description {
   margin: 0;
   margin-bottom: 30px;
   text-align: center;
-  font-size: 24px;
   line-height: 34px;
+  font-size: 24px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
@@ -640,13 +639,13 @@ html {
 }
 .audience__action-button {
   margin-bottom: 40px;
-  color: #000000;
-  background-color: #fff;
   width: 160px;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
-  border: none;
+  color: #000000;
+  background-color: #fff;
+  border: 0;
   border-radius: 2px;
 }
 @media screen and (max-width: 1399px) {
@@ -674,19 +673,19 @@ html {
 }
 
 .user-card {
-  margin-bottom: 15px;
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15px;
+  height: 300px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
   background-blend-mode: overlay, normal;
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
   .user-card {
-    margin-bottom: 0;
     width: 262px;
+    margin-bottom: 0;
     margin-right: 30px;
   }
 }
@@ -706,10 +705,10 @@ html {
   margin-top: 22px;
 }
 .user-card__name {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 28px;
   margin-top: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 22px;
 }
 
 .features {

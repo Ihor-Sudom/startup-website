@@ -2,13 +2,13 @@
 @import 'variables.scss';
 
 .action__button {
-  background-color: $color-middle-blue;
-  color: $color-white;
   width: 160px;
   height: 48px;
   font-size: 18px;
   font-weight: $bold-type;
-  border: none;
+  background-color: $color-middle-blue;
+  color: $color-white;
+  border: 0;
   border-radius: 2px;
 }
 
