@@ -511,6 +511,25 @@ html {
 
 .communication {
   padding: 50px 15px;
+  background-color: #F2F2F2;
+}
+@media screen and (min-width: 1400px) {
+  .communication {
+    padding: 0 130px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__content-text {
+    flex: 1;
+    margin-top: 123px;
+  }
 }
 .communication__subtitle {
   font-weight: 700;
@@ -526,6 +545,14 @@ html {
   letter-spacing: -0.357143px;
   color: #2B292D;
 }
+@media screen and (min-width: 1400px) {
+  .communication__title {
+    margin: 24px 0 30px 0;
+    width: 458px;
+    line-height: 56px;
+    font-size: 56px;
+  }
+}
 .communication__description {
   margin: 0;
   margin-bottom: 30px;
@@ -533,13 +560,31 @@ html {
   font-size: 24px;
   color: #2B292D;
 }
+@media screen and (min-width: 1400px) {
+  .communication__description {
+    margin-bottom: 39px;
+    width: 459px;
+  }
+}
 .communication__button {
   margin-bottom: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .communication__button {
+    margin-bottom: 87px;
+  }
 }
 .communication__scene {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .communication__scene {
+    flex: 1;
+    margin-top: 110px;
+    margin-right: 63px;
+  }
 }
 .communication__image {
   max-width: 100%;
@@ -555,11 +600,36 @@ html {
   margin-top: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+@media screen and (min-width: 1400px) {
+  .communication__line {
+    margin-right: 800px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__main-content {
+    display: flex;
+    margin-top: 41px;
+    margin-bottom: 110px;
+  }
+}
 .communication__main-text {
   margin-top: 33px;
   line-height: 26px;
   font-size: 18px;
   color: #2B292D;
+}
+@media screen and (min-width: 1400px) {
+  .communication__main-text {
+    flex: 1;
+    margin: 0;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__main-text:last-child {
+    margin-right: 0;
+  }
 }
 .communication__main-conten_click {
   font-weight: 700;
