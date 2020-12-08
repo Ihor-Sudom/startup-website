@@ -124,10 +124,10 @@
         margin-right: 0;
       }
     }
-  }
 
-  &__main-conten_click {
-    font-weight: 700;
-    color: $text-color-blue;
+    &_click {
+      font-weight: 700;
+      color: $text-color-blue;
+    }
   }
 }
