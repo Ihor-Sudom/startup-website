@@ -5,7 +5,7 @@ In the project directory, you can run
 
 index.html
 
-Open https://ihor-sudom.github.io/startup-website/ to view it in the browser
+Open ***[Startup Website](https://ihor-sudom.github.io/startup-website/ to view it in the browser)***
 
 the tech stack is:
 1. HTML5
